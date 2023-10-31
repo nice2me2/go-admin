@@ -249,6 +249,7 @@ INSERT INTO sys_menu VALUES (531, '', '修改接口', 'app-group-fill', '', '/0/
 INSERT INTO sys_menu VALUES (537, 'SysTools', '系统工具', 'system-tools', '/sys-tools', '', 'M', '', '', 0, false, '', 'Layout', 30, '0', '1', 1, 1, '2021-05-21 11:13:32.166', '2021-06-16 21:26:12.446', NULL);
 INSERT INTO sys_menu VALUES (540, 'SysConfigSet', '参数设置', 'system-tools', '/admin/sys-config/set', '', 'C', '', 'admin:sysConfigSet:list', 2, false, '', '/admin/sys-config/set', 0, '0', '1', 1, 1, '2021-05-25 16:06:52.560', '2021-06-17 11:48:40.703', NULL);
 INSERT INTO sys_menu VALUES (542, '', '修改', 'upload', '', '', 'F', '', 'admin:sysConfigSet:update', 540, false, '', '', 0, '0', '1', 1, 1, '2021-06-13 11:45:48.670', '2021-06-17 11:48:40.703', NULL);
+INSERT INTO sys_menu VALUES (543, 'SysCustomerManage', '客户信息管理', 'wechat', '/admin/sys-customer', '/0/2/543', 'C', '', 'admin:sysCustomer:list', 2, 0, '', '/admin/sys-customer/index', 0, '0', '1', 1, 0, '2023-10-24 16:37:48.268', '2023-10-24 16:37:48.306', NULL);
 INSERT INTO sys_menu_api_rule VALUES (216, 6);
 INSERT INTO sys_menu_api_rule VALUES (250, 6);
 INSERT INTO sys_menu_api_rule VALUES (58, 21);
